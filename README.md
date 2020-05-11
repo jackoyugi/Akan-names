@@ -1,6 +1,6 @@
 <h1>Akan-names</h1>
 <p>Akan names are given to people in Ghana and it inherits a culture of giving names depending on the birth day of the week. Female names starts with letter "A" while males starts with letter "K". 
-by: Jack Oyugi</P>
+by: <h2>Jack Oyugi</h2></P>
 
 <h3>Description</h3>
 
