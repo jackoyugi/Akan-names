@@ -11,7 +11,10 @@
     </head>
     <body>
         <div class="container">
+            <div class="card-header">
             <h4>AkAN GHANA NOMENCLATURE</h4>
+            </div>
+            <div class="card-body">
             <div class="row"></div>
 
             <div class="col-md-6">
@@ -38,35 +41,39 @@
                     </div>
 
                     <div class="form-group form-check">
-                        <input type="radio" name="one"
-                         class="form-check-input" value="" id="gender">
+                        <input type="radio" name="gender"
+                         class="form-check-input" value="male" id="male">
                          <label for="male">male</label>
                          <br>
-                         <input type="radio" name="one"
-                         class="form-check-input" value="" id="gender">
+                         <input type="radio" name="female"
+                         class="form-check-input" value="female" id="female">
                          <label for="female">female</label>
                     </div>
                     <div>
-                        <button onclick="result();">submit</button>
+                        <button onclick="AkanName();">submit</button>
                     </div>
 
                     <input type="reset">
                 </form>
             </div>
+            
             <div class="col-md-4">
                 <p>Akan names are given to people in Ghana and it inherits a culture of giving names depending on the birth day of the week. Female names starts with letter "A" while males starts with letter "K".</p>
                 <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date like this method a bove!</p>
+              
                 <div class="row output">
                     <p id="result"></p>
                 </div>
             </div>
             <div>
                 <div class="col-md-2"></div>
-                <footer class="footer"><p>Developed by Jack Oyugi 2020. All Rights Reserved. Akan Names Application.</p></footer>
+                <footer class="card-footer"><p>Developed by Jack Oyugi 2020. All Rights Reserved. Akan Names Application.</p></footer>
+                </div>
             </div>
 
-        </div>
+        </div>  
 
+        <script type="text/javascript" src="js/scripts.js"></script>
     </body>
-    <script src="js/scripts.js"></script>
+
 </html>
