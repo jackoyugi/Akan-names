@@ -1,0 +1,21 @@
+.container {
+    background-color: gray
+
+}
+h4{
+    text-align: center;
+    background-color: palevioletred
+
+}
+.output{
+    border: solid 2px black;
+    height: 50%;
+    width:95%;
+    border-radius: 4px;
+}
+.footer {
+    color: rgb(4, 8, 59);
+    background-color: green
+    text-align: center;
+    float: right;
+}

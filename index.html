@@ -7,19 +7,62 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/boostrap.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
     </head>
     <body>
         <div class="container">
-            <h4>Akan Ghana names</h4>
+            <h4>AkAN GHANA NOMENCLATURE</h4>
             <div class="row"></div>
 
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <form>
                     <div class="form-group">
                         <label for="Centuary">Centuary</label>
+                        <input type="text"class="form-control"
+                        id="centuary" placeholder="example 19" required>
                     </div>
+                    <div class="form-group">
+                        <label for the year="year">Year</label>
+                        <input type="year" class="form-control" id="year"
+                        placeholder="example 1995" required>
+                    </div>
+                    <div class="form-group">
+                        <label for the month="month">Month</label>
+                        <input type="text" class="form-control" id="month"
+                        placeholder="example 5" min="1" max="12" required>
+                    </div>
+                    <div class="form group">
+                        <label for the date="date">Date</label>
+                        <input type="text" class="form-control" id="date"
+                        placeholder="example 12" min="1" max="31" required>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="radio" name="one"
+                         class="form-check-input" value="" id="gender">
+                         <label for="male">male</label>
+                         <br>
+                         <input type="radio" name="one"
+                         class="form-check-input" value="" id="gender">
+                         <label for="female">female</label>
+                    </div>
+                    <div>
+                        <button onclick="result();">submit</button>
+                    </div>
+
+                    <input type="reset">
                 </form>
+            </div>
+            <div class="col-md-4">
+                <p>Akan names are given to people in Ghana and it inherits a culture of giving names depending on the birth day of the week. Female names starts with letter "A" while males starts with letter "K".</p>
+                <p>Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date like this method a bove!</p>
+                <div class="row output">
+                    <p id="result"></p>
+                </div>
+            </div>
+            <div>
+                <div class="col-md-2"></div>
+                <footer class="footer"><p>Developed by Jack Oyugi 2020. All Rights Reserved. Akan Names Application.</p></footer>
             </div>
 
         </div>
